@@ -23,3 +23,14 @@ Sprockets::FileNotFound in Static#index
 Showing /home/kireto/robopartans/reduco/refinery_error_example/app/views/layouts/application.html.erb where line #10 raised:
 
 couldn't find file 'bootstrap' with type 'application/javascript'
+
+# What have i tried
+
+I am following this guide: http://www.refinerycms.com/guides/with-an-existing-rails-app
+
+I have also tried doing 
+   
+   rails generate refinery:cms --fresh-installation
+
+after bundle install. But the result is the same.
+   
