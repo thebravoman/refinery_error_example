@@ -1,5 +1,5 @@
 This project demostrates an error occuring while adding refinery to a project. 
-Everything has been remove from the project and it is a simple page.
+Everything has been removed from the project and it's just a simple page.
 
 # How to run project
 
