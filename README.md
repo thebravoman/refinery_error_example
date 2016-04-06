@@ -1,4 +1,7 @@
-# refinery_error_example
+This project demostrates an error occuring while adding refinery to a project. 
+Everything has been remove from the project and it is a simple page.
+
+# How to run project
 
 1. Clone project
 2. Run rails s
@@ -6,7 +9,7 @@
 
 A page with the text "It's working" is displayed.
 
-How to reproduce refinery problem
+# How to reproduce refinery problem
 
     gem 'refinerycms', '~> 3.0.0' 
     bundle install
