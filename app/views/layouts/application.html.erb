@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+ </head>
+  <body <%= yield(:body_class) if content_for?(:body_class) %>>
+  <div id="main-content">
+    <%= yield %>
+  </div>
+</div>
+<%= javascript_include_tag "application" %>
+</body>
+</html>
