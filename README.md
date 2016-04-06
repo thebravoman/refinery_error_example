@@ -30,7 +30,7 @@ I am following this guide: http://www.refinerycms.com/guides/with-an-existing-ra
 
 I have also tried doing 
    
-   rails generate refinery:cms --fresh-installation
+    rails generate refinery:cms --fresh-installation
 
 after bundle install. But the result is the same.
    
