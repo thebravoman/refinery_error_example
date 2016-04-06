@@ -1,6 +1,8 @@
 This project demostrates an error occuring while adding refinery to a project. 
 Everything has been removed from the project and it's just a simple page.
 
+(The last time I had to debug like this was in a pretty large and messy code in a coorporation and I though this was part of my past :) )
+
 # How to run project
 
 1. Clone project
@@ -11,7 +13,10 @@ A page with the text "It's working" is displayed.
 
 # How to reproduce refinery problem
 
-    gem 'refinerycms', '~> 3.0.0' 
+    gem 'refinerycms', '~> 3.0.0'
+
+but *BEFORE* the line gem "bootstrap-sass", ">= 3.1.1.1"
+
     bundle install
     rails s
     
@@ -24,13 +29,12 @@ Showing /home/kireto/robopartans/reduco/refinery_error_example/app/views/layouts
 
 couldn't find file 'bootstrap' with type 'application/javascript'
 
-# What have i tried
 
-I am following this guide: http://www.refinerycms.com/guides/with-an-existing-rails-app
+# When is it working
 
-I have also tried doing 
-   
-    rails generate refinery:cms --fresh-installation
+If you add 
 
-after bundle install. But the result is the same.
-   
+    gem 'refinerycms', '~> 3.0.0'
+
+but *AFTER* the line gem "bootstrap-sass", ">= 3.1.1.1" 
+Then everything works fine.
