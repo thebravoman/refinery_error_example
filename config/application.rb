@@ -3,6 +3,7 @@ require File.expand_path('../boot', __FILE__)
 require 'net/http'
 require 'yaml'
 require 'rails/all'
+require 'bootstrap-sass'
 
 # If you have a Gemfile, require the gems listed there, including any gems
 # you've limited to :test, :development, or :production.
